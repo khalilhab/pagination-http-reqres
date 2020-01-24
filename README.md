@@ -5,7 +5,7 @@ Used on this sample:
 -animate recyclerview
 -http request
 
-![Alt Text]()
-<img src="https://s5.gifyu.com/images/11194656bbe16303a9.gif" width="200" height="400" />
+![](11.gif)
+
 
 
