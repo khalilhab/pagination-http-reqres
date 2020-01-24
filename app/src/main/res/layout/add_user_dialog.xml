@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="32dp">
+<TextView
+    android:id="@+id/create_new_user"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_alignParentTop="true"
+    android:text="CREATE NEW USER"
+    android:layout_marginBottom="12dp"
+    android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/new_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Name : "
+        android:layout_below="@+id/create_new_user"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="8dp"
+        />
+    <TextView
+        android:id="@+id/job"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/new_name"
+        android:textSize="18sp"
+        android:text="Job : "
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="12dp"/>
+    <EditText
+        android:id="@+id/name_edit"
+        android:layout_width="match_parent"
+        android:layout_marginRight="18dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/new_name"
+        android:layout_below="@id/create_new_user"
+        android:hint="New name"
+        />
+    <EditText
+        android:id="@+id/job_edit"
+        android:layout_width="match_parent"
+        android:layout_marginRight="18dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/job"
+        android:layout_below="@id/name_edit"
+        android:hint="New Job"
+        android:layout_marginBottom="30dp"
+        android:layout_alignLeft="@id/name_edit"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="create"
+        android:id="@+id/create"
+        android:layout_below="@id/job_edit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp"
+
+        />
+
+</RelativeLayout>
