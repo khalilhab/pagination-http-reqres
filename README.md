@@ -1,4 +1,4 @@
-# train_api
+# pagination-http-reqres
 
 Used on this sample:
 -pagination
